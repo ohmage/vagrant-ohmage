@@ -34,7 +34,6 @@ And some information about what is doing what:
 
 ## A few more quick notes!
 
-  * The survey tool is currently not functioning.  It requires a hardcoded server name which is a bit odd if you need to change the configured IP address in this Vagrantfile
-  * nginx is doing a bunch of legacy redirects that aren't needed, but shouldn't result in any unwanted behavior. they will be removed in the next release!
+  * You'll need to change the IP address the survey_tool points to if you opt not to use the private network address 192.168.33.100. You can do this by editing `/var/www/webapps/survey/js/config/ConfigManager.js`.
 
   Thanks, and have fun!
