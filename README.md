@@ -1,4 +1,4 @@
-# ohmage-vagrant
+# vagrant-ohmage
 
 The fastest way to get testing and developing against ohmage! This is a vagrant box pre-configured to be running the latest stable version of ohmage the second you turn it on.  Obviously, some assumptions have been made about the deployment, so it should never be used in production.
 
